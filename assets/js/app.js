@@ -3,7 +3,7 @@ function pesquisar() {
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
     if (!campoPesquisa) {
-        section.innerHTML = "<p id='mensagem-nenhum-resultado'>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>";
+        section.innerHTML = "<p id='mensagem-nenhum-resultado'>Nada foi encontrado. Informe o que deseja pesquisar.</p>";
         return;
     }
 
